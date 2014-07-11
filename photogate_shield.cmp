@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Wed 09 Jul 2014 07:13:12 PM PDT
+
+BeginCmp
+TimeStamp = /53BCAFE8;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BCB066;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BB32F7;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BB435A;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BB4DE8;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = JACK_RJ11;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BC2597;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = JACK_RJ11;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BB32EC;
+Reference = R1;
+ValeurCmp = 220;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BB435B;
+Reference = R2;
+ValeurCmp = 220;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BCAFF4;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BCB065;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BB2C80;
+Reference = R5;
+ValeurCmp = 5K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BC259B;
+Reference = R6;
+ValeurCmp = 5K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BB2C86;
+Reference = R7;
+ValeurCmp = 150;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BC259A;
+Reference = R8;
+ValeurCmp = 150;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BB2365;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = arduino_shield_modified;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BCADF4;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = mini-pb;
+EndCmp
+
+EndListe

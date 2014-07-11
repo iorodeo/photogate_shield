@@ -1,0 +1,189 @@
+# EESchema Netlist Version 1.1 created  Wed 09 Jul 2014 07:13:12 PM PDT
+(
+ ( /53BCAFE8 C1 C1 C
+  ( 1 N-000033 )
+  ( 2 GND )
+ )
+ ( /53BCB066 C1 C2 C
+  ( 1 N-000034 )
+  ( 2 GND )
+ )
+ ( /53BB32F7 LED-3MM D1 LED
+  ( 1 N-000024 )
+  ( 2 GND )
+ )
+ ( /53BB435A LED-3MM D2 LED
+  ( 1 N-000032 )
+  ( 2 GND )
+ )
+ ( /53BB4DE8 JACK_RJ11 P1 CONN_6
+  ( 1 /5V )
+  ( 2 N-000033 )
+  ( 3 N-000025 )
+  ( 4 /5V )
+  ( 5 /AD1 )
+  ( 6 GND )
+ )
+ ( /53BC2597 JACK_RJ11 P2 CONN_6
+  ( 1 /5V )
+  ( 2 N-000034 )
+  ( 3 N-000027 )
+  ( 4 /5V )
+  ( 5 /AD2 )
+  ( 6 GND )
+ )
+ ( /53BB32EC R3 R1 220
+  ( 1 /LED1 )
+  ( 2 N-000024 )
+ )
+ ( /53BB435B R3 R2 220
+  ( 1 /LED2 )
+  ( 2 N-000032 )
+ )
+ ( /53BCAFF4 R3 R3 R
+  ( 1 /SIG1 )
+  ( 2 N-000033 )
+ )
+ ( /53BCB065 R3 R4 R
+  ( 1 /SIG2 )
+  ( 2 N-000034 )
+ )
+ ( /53BB2C80 R3 R5 5K
+  ( 1 N-000033 )
+  ( 2 GND )
+ )
+ ( /53BC259B R3 R6 5K
+  ( 1 N-000034 )
+  ( 2 GND )
+ )
+ ( /53BB2C86 R3 R7 150
+  ( 1 N-000025 )
+  ( 2 GND )
+ )
+ ( /53BC259A R3 R8 150
+  ( 1 N-000027 )
+  ( 2 GND )
+ )
+ ( /53BB2365 arduino_shield_modified SHIELD1 ARDUINO_SHIELD
+  ( 0 ? )
+  ( 1 ? )
+  ( 2 /SIG1 )
+  ( 3 /SIG2 )
+  ( 3V3 ? )
+  ( 4 /AD1 )
+  ( 5 /AD2 )
+  ( 5V /5V )
+  ( 6 /LED1 )
+  ( 7 /LED2 )
+  ( 8 /RESET )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( AD0 ? )
+  ( AD1 ? )
+  ( AD2 ? )
+  ( AD3 ? )
+  ( AD4 ? )
+  ( AD5 ? )
+  ( AREF ? )
+  ( GND1 GND )
+  ( GND2 ? )
+  ( GND3 ? )
+  ( RST ? )
+  ( V_IN ? )
+ )
+ ( /53BCADF4 mini-pb SW1 SW_PUSH
+  ( 1 GND )
+  ( 2 /RESET )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,254 @@
+(pcb /home/jo/work/photogate_shield/photogate_shield.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2012-apr-16-27)-stable")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Front
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Back
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  4272.8 -2755.9  2493.3 -2755.9  2493.3 -4862.2  4272.8 -4862.2
+            4272.8 -2755.9)
+    )
+    (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
+    (rule
+      (width 20)
+      (clearance 10.1)
+      (clearance 10.1 (type default_smd))
+      (clearance 2.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component R3
+      (place R1 2716.5 -3267.7 front 270 (PN 220))
+      (place R2 2716.5 -4330.7 front 90 (PN 220))
+      (place R3 3189 -3267.7 front 270 (PN R))
+      (place R4 3208.7 -4330.7 front 270 (PN R))
+      (place R5 3563.1 -3700.8 front 0 (PN 5K))
+      (place R6 3563.1 -3917.3 front 180 (PN 5K))
+      (place R7 4055.2 -3700.8 front 0 (PN 150))
+      (place R8 4055.2 -3917.3 front 0 (PN 150))
+    )
+    (component "mini-pb"
+      (place SW1 2938.2 -3809.1 front 180 (PN SW_PUSH))
+    )
+    (component "LED-3MM"
+      (place D1 2938.2 -3282.5 front 0 (PN LED))
+      (place D2 2938.2 -4335.6 front 0 (PN LED))
+    )
+    (component JACK_RJ11
+      (place "Photogate 1" 3852.2 -3282.5 front 90 (PN CONN_6))
+      (place "Photogate 2" 3852.2 -4335.6 front 90 (PN CONN_6))
+    )
+    (component C1
+      (place C1 2938.2 -3051.2 front 0 (PN C))
+      (place C2 2938.2 -4606.3 front 0 (PN C))
+    )
+    (component arduino_shield_modified
+      (place SHIELD1 1673.2 -4862.2 front 0 (PN ARDUINO_SHIELD))
+    )
+  )
+  (library
+    (image R3
+      (outline (path signal 8  -150 0  -130 0))
+      (outline (path signal 8  150 0  130 0))
+      (outline (path signal 8  130 0  130 40))
+      (outline (path signal 8  130 40  -130 40))
+      (outline (path signal 8  -130 40  -130 -40))
+      (outline (path signal 8  -130 -40  130 -40))
+      (outline (path signal 8  130 -40  130 0))
+      (outline (path signal 8  -130 20  -110 40))
+      (pin Round[A]Pad_55_mil 1 -150 0)
+      (pin Round[A]Pad_55_mil 2 150 0)
+    )
+    (image "mini-pb"
+      (outline (path signal 15  -118.1 59.1  -118.1 -59.1))
+      (outline (path signal 15  118.1 59.1  118.1 -59.1))
+      (outline (path signal 15  0 -78.7  -98.4 -78.7))
+      (outline (path signal 15  0 -78.7  98.4 -78.7))
+      (outline (path signal 15  0 78.7  -98.4 78.7))
+      (outline (path signal 15  0 78.7  98.4 78.7))
+      (pin Round[A]Pad_60_mil @1 88.6 128)
+      (pin Round[A]Pad_60_mil 1 -88.6 128)
+      (pin Round[A]Pad_60_mil 2 88.6 -128)
+      (pin Round[A]Pad_60_mil @2 -88.6 -128)
+    )
+    (image "LED-3MM"
+      (outline (path signal 10  72 -50  72 50))
+      (pin Round[A]Pad_66_mil 1 -50 0)
+      (pin Round[A]Pad_66_mil 2 50 0)
+    )
+    (image JACK_RJ11
+      (outline (path signal 15  0 -420  270 -420))
+      (outline (path signal 15  270 -420  270 440))
+      (outline (path signal 15  270 440  -270 440))
+      (outline (path signal 15  -270 440  -270 -420))
+      (outline (path signal 15  -270 -420  0 -420))
+      (pin Round[A]Pad_138_mil @1 -200 0)
+      (pin Round[A]Pad_138_mil @2 200 0)
+      (pin Round[A]Pad_50_mil 1 -125 350)
+      (pin Round[A]Pad_50_mil 2 -75 250)
+      (pin Round[A]Pad_50_mil 3 -25 350)
+      (pin Round[A]Pad_50_mil 4 25 250)
+      (pin Round[A]Pad_50_mil 5 75 350)
+      (pin Round[A]Pad_50_mil 6 125 250)
+    )
+    (image C1
+      (outline (path signal 12  -98 50  100 50))
+      (outline (path signal 12  100 50  100 -50))
+      (outline (path signal 12  100 -50  -100 -50))
+      (outline (path signal 12  -100 -50  -100 50))
+      (outline (path signal 12  -100 25  -75 50))
+      (pin Round[A]Pad_55_mil 1 -50 0)
+      (pin Round[A]Pad_55_mil 2 50 0)
+    )
+    (image arduino_shield_modified
+      (outline (path signal 15  820 2100  2600 2100))
+      (outline (path signal 15  2600 0  2600 2100))
+      (outline (path signal 15  820 0  2600 0))
+      (outline (path signal 15  820 2100  820 0))
+      (pin Oval[A]Pad_100x60_mil (rotate 90) AD5 2500 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) AD4 2400 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) AD3 2300 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) AD0 2000 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) AD1 2100 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) AD2 2200 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) V_IN 1800 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) GND2 1700 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) GND1 1600 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 3V3 1400 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) RST 1300 100)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 0 2500 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 1 2400 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 2 2300 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 3 2200 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 4 2100 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 5 2000 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 6 1900 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 7 1800 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 8 1640 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 9 1540 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 10 1440 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 11 1340 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 12 1240 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 13 1140 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) GND3 1040 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) AREF 940 2000)
+      (pin Oval[A]Pad_100x60_mil (rotate 90) 5V 1500 100)
+    )
+    (padstack Round[A]Pad_138_mil
+      (shape (circle Front 138))
+      (shape (circle Back 138))
+      (attach off)
+    )
+    (padstack Round[A]Pad_50_mil
+      (shape (circle Front 50))
+      (shape (circle Back 50))
+      (attach off)
+    )
+    (padstack Round[A]Pad_55_mil
+      (shape (circle Front 55))
+      (shape (circle Back 55))
+      (attach off)
+    )
+    (padstack Round[A]Pad_60_mil
+      (shape (circle Front 60))
+      (shape (circle Back 60))
+      (attach off)
+    )
+    (padstack Round[A]Pad_66_mil
+      (shape (circle Front 66))
+      (shape (circle Back 66))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_100x60_mil
+      (shape (path Front 60  -20 0  20 0))
+      (shape (path Back 60  -20 0  20 0))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:25_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:0_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+  )
+  (network
+    (net /5V
+      (pins "Photogate 1"-1 "Photogate 1"-4 "Photogate 2"-1 "Photogate 2"-4 SHIELD1-5V)
+    )
+    (net /AD1
+      (pins "Photogate 1"-5 SHIELD1-4)
+    )
+    (net /AD2
+      (pins "Photogate 2"-5 SHIELD1-5)
+    )
+    (net /LED1
+      (pins R1-1 SHIELD1-6)
+    )
+    (net /LED2
+      (pins R2-1 SHIELD1-7)
+    )
+    (net /RESET
+      (pins SW1-2 SHIELD1-8)
+    )
+    (net /SIG1
+      (pins R3-1 SHIELD1-2)
+    )
+    (net /SIG2
+      (pins R4-1 SHIELD1-3)
+    )
+    (net GND
+      (pins R5-2 R6-2 R7-2 R8-2 SW1-1 D1-2 D2-2 "Photogate 1"-6 "Photogate 2"-6 C1-2
+        C2-2 SHIELD1-GND1)
+    )
+    (net "N-000024"
+      (pins R1-2 D1-1)
+    )
+    (net "N-000025"
+      (pins R7-1 "Photogate 1"-3)
+    )
+    (net "N-000027"
+      (pins R8-1 "Photogate 2"-3)
+    )
+    (net "N-000032"
+      (pins R2-2 D2-1)
+    )
+    (net "N-000033"
+      (pins R3-2 R5-1 "Photogate 1"-2 C1-1)
+    )
+    (net "N-000034"
+      (pins R4-2 R6-1 "Photogate 2"-2 C2-1)
+    )
+    (class kicad_default "" /5V /AD1 /AD2 /LED1 /LED2 /RESET /SIG1 /SIG2 GND
+      "N-000024" "N-000025" "N-000027" "N-000032" "N-000033" "N-000034"
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 20)
+        (clearance 10.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
