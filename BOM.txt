@@ -1,0 +1,10 @@
+Part      Qty    Description                Vendor     PN                  
+------------------------------------------------------------------------
+D1, D2     2     Red LED                    Jameco     202471
+P1, P2     2     RJ11 jack                  Digikey    A31406-ND
+SW1        1     Reset button               Digikey    P8006S-ND
+R1, R2     2     220 Ohm resistor, 1/8W     Digikey    CF18JT220RCT-ND
+R3,4,5,6   4     5.6 K Ohm resistor, 1/8W   Digikey    CF18JT5K60CT-ND
+R7, R8     2     150 Ohm resistor, 1/8W     Digikey    CF18JT150RCT-ND
+           1     Breakaway header, 40pos    Digikey    A32701-40-ND
+
